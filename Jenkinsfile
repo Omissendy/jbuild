@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        registry = "registry.gitlab.com/xavki/presentations-jenkins"
+        registry = "registry.gitlab.com/jeanmendy37-group/presentation-jenkins"
         IMAGE = "${registry}:version-${env.BUILD_ID}"
     }
 
